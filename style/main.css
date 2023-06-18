@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(61, 63, 63);
+}
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 450px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("../src/img/hero.jpeg");
+  background-position: center;
+  background-size: 100% 100%;
+  color: #fff;
+}
+
+#card-list {
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+#card-list:hover {
+  background-color: rgb(163, 159, 152);
+}
+
+.button-hidden {
+  display: none;
+}
+
+.judul-jadwal {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hidden-list {
+  display: none;
+}
+
+footer {
+  padding: 10px;
+  color: #fff;
+  background-color: #0a444e;
+  text-align: center;
+  margin-top: 20px;
+}
